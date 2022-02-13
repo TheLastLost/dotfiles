@@ -1,0 +1,49 @@
+{
+   "author": "Sky Mavis Engineering",
+   "background": {
+      "persistent": true,
+      "scripts": [ "browser-polyfill.js", "background.js", "vendors.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "ronin-wallet@axieinfinity.com",
+         "strict_min_version": "68.0"
+      }
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "chromeos": "Shift+Alt+R",
+            "linux": "Shift+Alt+R",
+            "mac": "Shift+Alt+R",
+            "windows": "Shift+Alt+R"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "browser-polyfill.js", "content-script.js", "vendors.js" ],
+      "matches": [ "*://*.axieinfinity.com/*", "*://*.skymavis.com/*", "*://*.roninchain.com/*", "*://*.skymavis.one/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "trezor-content-script.js" ],
+      "matches": [ "*://connect.trezor.io/*/popup.html" ]
+   } ],
+   "description": "A wallet for Sky Mavis's Ronin sidechain",
+   "differential_fingerprint": "1.01bb2eb801f6d2f77b030ab0a2027f5fdc216bcd752eedab52a08a7e8610f8b1",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAg50rr88Yv0XryIMv3BDPLIZxCSDPB8EPx4AauKNkFCrxuznmDSp5jJyfC/S1GXQK63ZO9PQXKC26y/OOvua7BsYqNch9ZZ82GTPfV7QLOGdOJAsIHOwQN9oadnlXtheCbmZxrYp8DxP1HBi+/JF4dqE2rJUkT2KU/NqH7ay3grQheFLWDwduvs/lldssYomD3/Aj8uGfZoFDmX4xOqhIFwJ0q01f8weYX4uN59PyOUo/lzu8DdX0bRx3qu7y2rmgsnP9bMMQAxZaSFLT2uSzfIJOp/56EtVRLorgD3dBld23aVdz4qTBXkSoBNXg2sx1JxzJKjnA0pKQ6zGkcIKoTwIDAQAB",
+   "manifest_version": 2,
+   "name": "Ronin Wallet",
+   "permissions": [ "storage", "unlimitedStorage", "*://connect.trezor.io/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.3",
+   "web_accessible_resources": [ "in-page.js" ]
+}

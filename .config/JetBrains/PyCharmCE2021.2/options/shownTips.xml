@@ -1,0 +1,21 @@
+<application>
+  <component name="ShownTips">
+    <option name="shownTips">
+      <map>
+        <entry key="47e4c3f0.html" value="1643626533461" />
+        <entry key="ChangeSorting.html" value="1643626535547" />
+        <entry key="CodeCompletionInSearch.html" value="1643626532339" />
+        <entry key="CodeCompletionMiddle.html" value="1643626534026" />
+        <entry key="CodeCompletionNoShift.html" value="1643626527564" />
+        <entry key="CopyWithNoSelection.html" value="1643626531153" />
+        <entry key="CtrlDotInLookups.html" value="1643626532898" />
+        <entry key="DirDiff.html" value="1643626528966" />
+        <entry key="JoinLines.html" value="1643626530358" />
+        <entry key="JumpToLastEdit.html" value="1643626479694" />
+        <entry key="RecentSearch.html" value="1643626517224" />
+        <entry key="WildcardsInNavigationPopups.html" value="1643626534714" />
+        <entry key="smart_selection.html" value="1643626531754" />
+      </map>
+    </option>
+  </component>
+</application>

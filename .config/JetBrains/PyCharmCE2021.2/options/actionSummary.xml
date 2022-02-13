@@ -1,0 +1,31 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="1" l="1643629875027" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="12" l="1643626879567" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="1" l="1643626869755" />
+    </e>
+    <e n="EditorPaste">
+      <i c="2" l="1643626469055" />
+    </e>
+    <e n="ShowSettings">
+      <i c="2" l="1643626750795" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="1" l="1643626099882" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1643626745632" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="1" l="1643626608595" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1643630467624" />
+    </e>
+  </component>
+</application>

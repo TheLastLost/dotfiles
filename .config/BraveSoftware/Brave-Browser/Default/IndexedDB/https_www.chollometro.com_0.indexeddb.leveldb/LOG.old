@@ -1,0 +1,15 @@
+2022/02/04-10:02:01.948 eee Reusing MANIFEST /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chollometro.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/04-10:02:01.948 eee Recovering log #4
+2022/02/04-10:02:01.952 eee Reusing old log /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chollometro.com_0.indexeddb.leveldb/000004.log 
+2022/02/04-10:02:10.237 eee Level-0 table #8: started
+2022/02/04-10:02:10.242 eee Level-0 table #8: 154321 bytes OK
+2022/02/04-10:02:10.244 eee Delete type=0 #4
+2022/02/04-10:02:10.244 eee Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/02/04-10:02:10.244 eee Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xf0\xd8\x81?\xecwB\x00\x01T\x00s\x00t\x00a\x00t\x00i\x00c\x00-\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00c\x00h\x00o\x00l\x00l\x00o\x00m\x00e\x00t\x00r\x00o\x00.\x00c\x00o\x00m\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00j\x00s\x00/\x00m\x00o\x00d\x00e\x00r\x00n\x00/\x00f\x00a\x00y\x00e\x00-\x00b\x00r\x00o\x00w\x00s\x00e\x00r\x00_\x009\x002\x00f\x006\x00d\x00b\x00.\x00j\x00s' @ 9106 : 1
+2022/02/04-10:02:10.244 eee Compacting 1@1 + 1@2 files
+2022/02/04-10:02:10.248 eee Generated table #9@1: 219 keys, 15124 bytes
+2022/02/04-10:02:10.248 eee Compacted 1@1 + 1@2 files => 15124 bytes
+2022/02/04-10:02:10.249 eee compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/04-10:02:10.249 eee Delete type=2 #8
+2022/02/04-10:02:10.249 eee Delete type=2 #5
+2022/02/04-10:02:10.249 eee Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xf0\xd8\x81?\xecwB\x00\x01T\x00s\x00t\x00a\x00t\x00i\x00c\x00-\x00r\x00e\x00s\x00o\x00u\x00r\x00c\x00e\x00s\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00w\x00w\x00w\x00.\x00c\x00h\x00o\x00l\x00l\x00o\x00m\x00e\x00t\x00r\x00o\x00.\x00c\x00o\x00m\x00/\x00a\x00s\x00s\x00e\x00t\x00s\x00/\x00j\x00s\x00/\x00m\x00o\x00d\x00e\x00r\x00n\x00/\x00f\x00a\x00y\x00e\x00-\x00b\x00r\x00o\x00w\x00s\x00e\x00r\x00_\x009\x002\x00f\x006\x00d\x00b\x00.\x00j\x00s' @ 9106 : 1 .. (end); will stop at (end)

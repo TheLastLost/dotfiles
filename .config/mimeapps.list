@@ -1,0 +1,8 @@
+[Default Applications]
+x-scheme-handler/tg=userapp-Kotatogram Desktop-J08RE1.desktop
+image/png=org.gnome.gThumb.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-0V45E1.desktop;userapp-Kotatogram Desktop-J08RE1.desktop;
+image/bmp=org.gnome.gThumb.desktop;
+image/png=org.gnome.gThumb.desktop;

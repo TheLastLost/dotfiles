@@ -1,0 +1,72 @@
+2022/02/04-10:31:40.598 ef5 Reusing MANIFEST /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/04-10:31:40.599 ef5 Recovering log #252
+2022/02/04-10:31:40.602 ef5 Reusing old log /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000252.log 
+2022/02/04-10:31:40.602 ef5 Delete type=2 #246
+2022/02/04-10:31:40.602 ef5 Delete type=2 #245
+2022/02/04-10:31:40.602 ef5 Delete type=2 #250
+2022/02/04-10:31:40.602 ef5 Delete type=2 #248
+2022/02/04-10:31:40.602 ef5 Delete type=2 #244
+2022/02/04-10:31:40.602 ef5 Delete type=2 #247
+2022/02/04-10:31:40.602 ef5 Delete type=2 #243
+2022/02/04-10:31:40.602 ef5 Delete type=2 #242
+2022/02/04-10:31:43.865 1187 Level-0 table #262: started
+2022/02/04-10:31:43.883 1187 Level-0 table #262: 1124050 bytes OK
+2022/02/04-10:31:43.885 1187 Delete type=0 #252
+2022/02/04-10:31:43.982 1187 Compacting 2@0 + 0@1 files
+2022/02/04-10:31:44.026 1187 Generated table #263@0: 41277 keys, 1534938 bytes
+2022/02/04-10:31:44.026 1187 Compacted 2@0 + 0@1 files => 1534938 bytes
+2022/02/04-10:31:44.027 1187 compacted to: files[ 0 1 7 0 0 0 0 ]
+2022/02/04-10:31:44.027 1187 Delete type=2 #253
+2022/02/04-10:31:44.027 1187 Delete type=2 #262
+2022/02/04-10:31:44.076 1187 Compacting 1@1 + 5@2 files
+2022/02/04-10:31:44.142 1187 Generated table #264@1: 32290 keys, 2354348 bytes
+2022/02/04-10:31:44.164 1187 Generated table #265@1: 3528 keys, 2156941 bytes
+2022/02/04-10:31:44.186 1187 Generated table #266@1: 8559 keys, 2163395 bytes
+2022/02/04-10:31:44.235 1187 Generated table #267@1: 26816 keys, 2271309 bytes
+2022/02/04-10:31:44.253 1187 Generated table #268@1: 5190 keys, 1196711 bytes
+2022/02/04-10:31:44.253 1187 Compacted 1@1 + 5@2 files => 10142704 bytes
+2022/02/04-10:31:44.255 1187 compacted to: files[ 0 0 7 0 0 0 0 ]
+2022/02/04-10:31:44.255 1187 Delete type=2 #255
+2022/02/04-10:31:44.255 1187 Delete type=2 #254
+2022/02/04-10:31:44.255 1187 Delete type=2 #256
+2022/02/04-10:31:44.255 1187 Delete type=2 #251
+2022/02/04-10:31:44.255 1187 Delete type=2 #263
+2022/02/04-10:31:44.255 1187 Delete type=2 #257
+2022/02/04-10:31:44.708 1187 Level-0 table #270: started
+2022/02/04-10:31:44.724 1187 Level-0 table #270: 1158094 bytes OK
+2022/02/04-10:31:44.725 1187 Delete type=0 #261
+2022/02/04-10:31:44.736 eef Compacting 1@1 + 5@2 files
+2022/02/04-10:31:44.780 eef Generated table #271@1: 34813 keys, 2352807 bytes
+2022/02/04-10:31:44.800 eef Generated table #272@1: 3638 keys, 2156689 bytes
+2022/02/04-10:31:44.818 eef Generated table #273@1: 3082 keys, 2155283 bytes
+2022/02/04-10:31:44.866 eef Generated table #274@1: 28032 keys, 2266184 bytes
+2022/02/04-10:31:44.887 eef Generated table #275@1: 11036 keys, 1588424 bytes
+2022/02/04-10:31:44.887 eef Compacted 1@1 + 5@2 files => 10519387 bytes
+2022/02/04-10:31:44.888 eef compacted to: files[ 0 0 7 0 0 0 0 ]
+2022/02/04-10:40:38.117 128a Level-0 table #277: started
+2022/02/04-10:40:38.136 128a Level-0 table #277: 1279796 bytes OK
+2022/02/04-10:40:38.137 128a Delete type=2 #270
+2022/02/04-10:40:38.137 128a Delete type=2 #268
+2022/02/04-10:40:38.137 128a Delete type=2 #267
+2022/02/04-10:40:38.137 128a Delete type=2 #265
+2022/02/04-10:40:38.137 128a Delete type=2 #266
+2022/02/04-10:40:38.137 128a Delete type=0 #269
+2022/02/04-10:40:38.137 128a Delete type=2 #264
+2022/02/04-10:42:13.128 120a Compacting 1@1 + 7@2 files
+2022/02/04-10:42:13.216 120a Generated table #278@1: 35447 keys, 2360810 bytes
+2022/02/04-10:42:13.236 120a Generated table #279@1: 3638 keys, 2158266 bytes
+2022/02/04-10:42:13.253 120a Generated table #280@1: 4153 keys, 2157051 bytes
+2022/02/04-10:42:13.299 120a Generated table #281@1: 27533 keys, 2267353 bytes
+2022/02/04-10:42:13.328 120a Generated table #282@1: 29519 keys, 2170674 bytes
+2022/02/04-10:42:13.370 120a Generated table #283@1: 102079 keys, 2254782 bytes
+2022/02/04-10:42:13.385 120a Generated table #284@1: 37370 keys, 789161 bytes
+2022/02/04-10:42:13.385 120a Compacted 1@1 + 7@2 files => 14158097 bytes
+2022/02/04-10:42:13.387 120a compacted to: files[ 0 0 7 0 0 0 0 ]
+2022/02/04-10:42:13.387 120a Delete type=2 #259
+2022/02/04-10:42:13.387 120a Delete type=2 #277
+2022/02/04-10:42:13.387 120a Delete type=2 #273
+2022/02/04-10:42:13.387 120a Delete type=2 #274
+2022/02/04-10:42:13.387 120a Delete type=2 #258
+2022/02/04-10:42:13.387 120a Delete type=2 #271
+2022/02/04-10:42:13.387 120a Delete type=2 #275
+2022/02/04-10:42:13.387 120a Delete type=2 #272

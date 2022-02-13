@@ -1,0 +1,67 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/icon-16.png",
+         "19": "icons/icon-19.png",
+         "24": "icons/icon-24.png",
+         "32": "icons/icon-32.png",
+         "38": "icons/icon-38.png",
+         "48": "icons/icon-48.png",
+         "96": "icons/icon-96.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "applications": {
+      "gecko": {
+         "id": "avi6106@gmail.com"
+      }
+   },
+   "author": "avi12",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "avi6106@gmail.com"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "build/scripts/ythd-content-script-initialize.js" ],
+      "matches": [ "https://www.youtube.com/*", "https://www.youtube-nocookie.com/*", "https://youtube.googleapis.com/*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "default-src 'none'; child-src 'none'; manifest-src 'none'; media-src 'none'; prefetch-src 'none'; worker-src 'none'; connect-src 'none'; frame-src 'none'; font-src 'none'; object-src 'none'; img-src data:; script-src 'self'; script-src-elem 'report-sample' 'self'; script-src-attr 'none'; style-src 'self'; style-src-attr 'self'; style-src-elem 'self' 'unsafe-inline'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; upgrade-insecure-requests; report-uri https://api.jeurissen.co/reports/csp/webext/ythd/v1_4/"
+   },
+   "default_locale": "en",
+   "description": "__MSG_cj_i18n_02146__",
+   "developer": {
+      "name": "avi12",
+      "url": "https://avi12.com/youtube-auto-hd"
+   },
+   "differential_fingerprint": "1.8f131756d61fd4a87adf0c6e3987208ce5aee51f90ec3a6489b7cec9ec05dfae",
+   "host_permissions": [ "https://youtube.com/*", "https://www.youtube.com/*", "https://www.youtube-nocookie.com/*", "https://youtube.googleapis.com/*" ],
+   "icons": {
+      "128": "icons/icon-128.png",
+      "16": "icons/icon-16.png",
+      "24": "icons/icon-24.png",
+      "256": "icons/icon-256.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "64": "icons/icon-64.png",
+      "96": "icons/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAijHthxPnSVpZLe6eV2o9Wya3mYCcZ49Ydxoh85nKzo1Bkkt7/ezmZSFqI/KblAeml3Zm0ZOo2mGrIPfD/izBl7U/KfXA/ccAa5k1bRGsCgcZV+ctIcxaUXyc8M+YuI0dy5w6dOUxhQXk2gCs+kz3XwpQe8BSJlW6LMpZ2TmbqCrZY1lZi/MS7IvPT5RlVwKK5rnlZYwAK51+4VyWKQkL3+Y06XUgm/IkSFtrbPaxYqwl/t/Mt0yVTrbyFlUayrUPBtjZHRjTnA1/Pa2lmlQLdzr9fC3ZFlHq5r+cJMLsZwEngBw/efDWV75ofe0P91expWQe7CGjnWy5/2TSyU/LZwIDAQAB",
+   "manifest_version": 3,
+   "name": "YouTube Auto HD + FPS",
+   "offline_enabled": true,
+   "optional_permissions": [ "cookies" ],
+   "options_ui": {
+      "browser_style": true,
+      "page": "popup.html"
+   },
+   "permissions": [ "storage" ],
+   "short_name": "YT Auto HD",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.1"
+}

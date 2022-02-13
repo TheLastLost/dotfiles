@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>__MSG_viewTitle__</title>
+    <link href="./css/scaffolding.css" rel="stylesheet" type="text/css">
+    <link href="./css/mini-styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/view.js"></script>
+  </head>
+  <body data-user-info-field="avatar_full" data-type="css-background-image" value="">
+    <header class="header container pt-5 pb-5" data-user-info-field="logged_in" data-type="value" value="">
+      <div class="row">
+        <div class="col s7">
+          <a class="logo ml-10" data-utm-campaign="main-logo" href="__MSG_extRootUrl__">
+            <img __MSG_extsrctagdeferred__="img/__MSG_extWebName__-logo.png" width="" height="23" />
+          </a>
+        </div>
+        <div class="col s5 pt-5 text-right user-info-caption">
+          <img src="img/gem.png" width="20" height="" />
+          <span class="description-m ml-5 mt-0" data-user-info-field="gems_total" data-type="html" value=""></span>
+          <a href="__MSG_extGamesWithAchievementsUrl__" data-utm-campaign="add-gems" class="btn btn-outline small btn-rounded ml-5 ">+</a>
+          <img class="ml-20" src="img/minicoin.png" width="20" height="20" />
+          <span class="description-m ml-5 mt-0" data-user-info-field="minicoins_total" data-type="html" value=""></span>
+          <a href="__MSG_extRootUrl__/?getminicoins=1" data-utm-campaign="add-minicoins" class="btn btn-outline small btn-rounded ml-5 mr-10">+</a>
+        </div>
+      </div>
+    </header>
+    <main data-user-info-field="logged_in" data-type="value" value="">
+      <div class="container">
+        <div class="row">
+          <div class="user-widget center">
+            <div class="user-info-caption">
+              <a class="description-m mb-5" data-utm-campaign="user-profile" href="__MSG_extProfileUrl__" data-user-info-field="uid" data-type="href-placeholder" value=""><span data-user-info-field="uid" data-type="html" value=""></span></a>
+              <div class="user-progress medium">
+                <span class="bar" data-user-info-field="progress_level_percent" data-type="css-width-percent" value=""><span data-user-info-field="progress_level" data-type="html" value=""></span></span>
+              </div>
+            </div>
+            <div>
+              <p class="description-s">
+                <a href="__MSG_extCommunityUrl__" data-utm-campaign="user-ranking">
+                  <span class="trend-position" data-user-info-field="ranking_position" data-type="html" value=""></span>
+                  <span class="trend-icon trend" data-user-info-field="ranking_trend" data-type="css-class" value=""><span class="trend-number" data-user-info-field="ranking_trend_value" data-type="html" value=""></span></span>
+                </a>
+              </p>
+            </div>
+            <div class="user-info-field not-logged-info-field">
+              <a class="user-no-avatar" href="__MSG_extRootUrl__/?register=1" data-utm-campaign="register-cta-thumbnail">
+                <img class="mb-20" src="img/avatar.png" alt="">
+              </a>
+              <a class="btn btn-highlight" data-utm-campaign="register-cta" href="__MSG_extRootUrl__/?register=1">__MSG_login__</a>
+            </div>
+          </div>
+          <div class="col s8 offset-s4 games-widget js-games-widget pr-0" data-loaded="0">
+            <div class="game-list mt-12">
+              <p class="ic-game heading m-0 pt-5 pb-5"><span class="text-upper text-bolder">__MSG_keepPlaying__</span> <a class="f-right btn small btn-outline" data-utm-campaign="view-all-keep-playing" href="__MSG_extRootUrl__">+</a></p>
+              <div class="game-list-wrapper js-game-list-wrapper" data-list-type="most_played_games">
+                <div class="zero-case">
+                  <div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="game-list mt-12 user-info-field">
+              <p class="ic-star heading m-0 pt-5 pb-5"><span class="text-upper text-bolder">__MSG_yourFavorites__</span> <a class="f-right user-info-field btn small btn-outline" data-utm-campaign="view-all-favourites" href="__MSG_extProfileFavoritesUrl__" data-user-info-field="uid" data-type="href-placeholder" value="">+</a></p>
+              <div class="game-list-wrapper js-game-list-wrapper" data-list-type="user_favorite_games">
+                <div class="zero-case">
+                  <div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div>
+                </div>
+              </div>
+            </div> -->
+            <div class="game-list mt-12">
+              <p class="ic-star heading m-0 pt-5 pb-5"><span class="text-upper text-bolder">__MSG_recommended__</span> <a class="f-right btn small btn-outline" data-utm-campaign="view-all-recommended" href="__MSG_extRootUrl__">+</a></p>
+              <div class="game-list-wrapper js-game-list-wrapper" data-list-type="recommended_games">
+                <div class="zero-case">
+                  <div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="game-list mt-12">
+              <p class="ic-time heading m-0 pt-5 pb-5"><span class="text-upper text-bolder">__MSG_updates__</span> <a class="f-right btn small btn-outline" data-utm-campaign="view-all-latest"  href="__MSG_extRootUrl__">+</a></p>
+              <div class="game-list-wrapper js-game-list-wrapper" data-list-type="latest">
+                <div class="zero-case">
+                  <div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div><div class="zero-case-item"></div>
+                </div>
+              </div>
+            </div>
+            <div class="loader-spinner-wrapper"><svg class="loader-spinner " width="64px" height="64px" viewBox="0 0 66 66" xmlns="https://www.w3.org/2000/svg"><circle class="circle" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div>
+            <div class="js-notification notification"><span class="icon ml-5"></span><span class="message"></span></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

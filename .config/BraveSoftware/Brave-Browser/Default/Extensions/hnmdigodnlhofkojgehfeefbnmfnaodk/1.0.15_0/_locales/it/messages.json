@@ -1,0 +1,20 @@
+{
+   "extDescription": {
+      "message": "Goditi i migliaia di giochi gratis di Minigiochi.com con questa estensione di Edge!"
+   },
+   "extName": {
+      "message": "Minigiochi.com - Giochi Gratis"
+   },
+   "extWebId": {
+      "message": "20"
+   },
+   "extWebName": {
+      "message": "minigiochi"
+   },
+   "snorlextBackendUrl": {
+      "message": "https://www.minigiochi.com/api/snorlext"
+   },
+   "viewTitle": {
+      "message": "Minigiochi.com - Giochi Gratis"
+   }
+}

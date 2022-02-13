@@ -1,0 +1,26 @@
+{
+   "background": {
+      "scripts": [ "./js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "./img/icon_48.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "es",
+   "description": "__MSG_extDescription__",
+   "externally_connectable": {
+      "matches": [ "*://localhost/*", "*://*.minijuegos.com/*", "*://*.miniplay.com/*", "*://*.minigiochi.com/*", "*://*.minijogos.com.br/*" ]
+   },
+   "icons": {
+      "128": "./img/icon_128.png",
+      "16": "./img/icon_16.png",
+      "48": "./img/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+lC1Zhe+weam93XP2aadIf9GlV8cKq3KQBoeTThpLRY1ZGZ6ZTdUMLHS8dX+xyCGTOHLwgBDzD0ulNu4wlShb9gDUyytqWnQX+Vx2CE82kbvLnZ+vDcmon7annCcOJw3nYBRcIbl/Uac5YhFW2kbTk8qzGPA/umFgTMyO2LWJmez/2swrDFDDxer9YEqTShZQCFxzfcsDWQNmrTEbFZBI8fqy3T+3JsRYVnqiAt9TQl+QTIlaMqoxOnVohxprZMQwQTGr1ZvW3oPjRYiRnckrHA2azUCfVhZKlILwJUTSzl79cuDJ9Tzrz4fkc4GFaAiMSkC38GBhMJfMe+Qb97NWQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "permissions": [ "contentSettings", "*://*.minijuegos.com/", "*://*.miniplay.com/", "*://*.minigiochi.com/", "*://*.minijogos.com.br/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.15"
+}

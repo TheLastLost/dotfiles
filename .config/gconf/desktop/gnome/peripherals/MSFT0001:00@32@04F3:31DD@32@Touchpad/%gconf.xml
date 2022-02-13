@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="guest_mouse" mtime="1643812127" type="bool" value="false"/>
+	<entry name="off" mtime="1643812115" type="int" value="0"/>
+	<entry name="device_type" mtime="1643812086" type="string">
+		<stringvalue>touchpad</stringvalue>
+	</entry>
+</gconf>

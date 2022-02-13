@@ -1,0 +1,23 @@
+2022/02/03-08:29:46.603 481 Reusing MANIFEST /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/03-08:29:46.604 481 Recovering log #30
+2022/02/03-08:29:46.609 481 Reusing old log /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000030.log 
+2022/02/03-08:29:59.551 481 Level-0 table #34: started
+2022/02/03-08:29:59.563 481 Level-0 table #34: 544129 bytes OK
+2022/02/03-08:29:59.565 481 Delete type=0 #30
+2022/02/03-08:29:59.566 481 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 9044 : 0
+2022/02/03-08:29:59.566 481 Compacting 2@0 + 1@1 files
+2022/02/03-08:29:59.575 481 Generated table #35@0: 807 keys, 7306 bytes
+2022/02/03-08:29:59.575 481 Compacted 2@0 + 1@1 files => 7306 bytes
+2022/02/03-08:29:59.577 481 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/02/03-08:29:59.577 481 Delete type=2 #31
+2022/02/03-08:29:59.577 481 Delete type=2 #28
+2022/02/03-08:29:59.577 481 Delete type=2 #34
+2022/02/03-08:29:59.578 481 Manual compaction at level-0 from '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 9044 : 0 .. (end); will stop at (end)
+2022/02/03-08:29:59.578 481 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 12330 : 0
+2022/02/03-08:29:59.578 481 Compacting 1@1 + 1@2 files
+2022/02/03-08:29:59.580 481 Generated table #36@1: 21 keys, 523 bytes
+2022/02/03-08:29:59.580 481 Compacted 1@1 + 1@2 files => 523 bytes
+2022/02/03-08:29:59.581 481 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/03-08:29:59.581 481 Delete type=2 #35
+2022/02/03-08:29:59.581 481 Delete type=2 #25
+2022/02/03-08:29:59.581 481 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0b\x00u\x00s\x00e\x00r\x00s\x00.\x00u\x00s\x00e\x00r\x00s' @ 12330 : 0 .. (end); will stop at (end)

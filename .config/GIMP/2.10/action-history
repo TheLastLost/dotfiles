@@ -1,0 +1,17 @@
+# GIMP action-history
+
+(history-item "tools-opacity-increase" 2)
+(history-item "tools-opacity-decrease" 3)
+(history-item "edit-clear" 0)
+(history-item "file-open" 1)
+(history-item "edit-copy" 0)
+(history-item "edit-paste" 1)
+(history-item "layers-new" 0)
+(history-item "layers-delete" 1)
+(history-item "edit-paste-as-new-image" 0)
+(history-item "file-export-as" 0)
+(history-item "file-quit" 0)
+(history-item "tools-paintbrush" 0)
+(history-item "tools-color-picker" 1)
+
+# end of action-history

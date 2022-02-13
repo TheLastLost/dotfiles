@@ -1,0 +1,6 @@
+2022/02/13-10:36:30.202 402 Reusing MANIFEST /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/02/13-10:36:30.203 402 Recovering log #358
+2022/02/13-10:36:30.204 402 Reusing old log /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000358.log 
+2022/02/13-10:43:20.558 402 Level-0 table #363: started
+2022/02/13-10:43:20.572 402 Level-0 table #363: 89856 bytes OK
+2022/02/13-10:43:20.574 402 Delete type=0 #358

@@ -1,0 +1,20 @@
+{
+   "extDescription": {
+      "message": "Enjoy thousands of free games from Miniplay.com with this Edge extension!"
+   },
+   "extName": {
+      "message": "Miniplay.com - Free Games"
+   },
+   "extWebId": {
+      "message": "10"
+   },
+   "extWebName": {
+      "message": "miniplay"
+   },
+   "snorlextBackendUrl": {
+      "message": "https://ssl.miniplay.com/api/snorlext"
+   },
+   "viewTitle": {
+      "message": "Miniplay.com - Free Games"
+   }
+}

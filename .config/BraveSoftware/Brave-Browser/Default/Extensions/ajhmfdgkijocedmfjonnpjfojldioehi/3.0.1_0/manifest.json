@@ -1,0 +1,24 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/32/grey.png",
+      "default_popup": "popup.html",
+      "default_title": "Privacy Pass"
+   },
+   "description": "Client support for Privacy Pass anonymous authorization protocol.",
+   "differential_fingerprint": "1.8e0014a80dc775fb8655565b2a3fb6b344603107fbc531d75accb11a9104864a",
+   "icons": {
+      "128": "icons/128/gold.png",
+      "32": "icons/32/gold.png",
+      "48": "icons/48/gold.png",
+      "64": "icons/64/gold.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs+4jtcLKojQjUGnB5w1pxu/NGbFaqeyjaMVSR0zgKEov2FkjMIKRsASpcGIgJV9SpJk4mAkFV1g0RwexL/c96amK+TMduH0BDe/oVC+kVD7f5JbVRZQwAC9LnElDBRW32ujY+t/BvO3K6FHgKKzevkBA+0kPKRhBb3IYVluHdqSZtT5g1EmPGfXXuddICHpi8BlnBFIYFoCneNSYL2LtrDySlhrWkTkNaBvrM32wWG7JOnJATyz4XvkapdFihfYG2GJLiE+0uY6fnWoLQIKy5qXPaXBHhIS8bx6Ge3EpX56TEWVXGc5dVqEb4GspHYUPfrqm3nrBFKNNWfH6ZjwtOQIDAQAB",
+   "manifest_version": 2,
+   "name": "Privacy Pass",
+   "permissions": [ "\u003Call_urls>", "cookies", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1"
+}

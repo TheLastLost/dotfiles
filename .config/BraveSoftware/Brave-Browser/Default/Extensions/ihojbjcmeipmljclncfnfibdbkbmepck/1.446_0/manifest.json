@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/jquery-1.12.4.js", "js/background.js" ]
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/miro.css" ],
+      "js": [ "js/jquery-1.12.4.js", "js/content.js" ],
+      "matches": [ "https://www.google.com/calendar/*", "https://calendar.google.com/calendar/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Attach and share Miro boards ahead of meetings and workshops",
+   "icons": {
+      "128": "images/miro-logo-main.png"
+   },
+   "incognito": "not_allowed",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1qaYmPS/aj2AHoFGOzw+6OuRrkTXPCGyiriVTiBmmwLhwoDfjcWKQt9HWiF/Em2GUT4h32N8kBFSF+6wNfevkutpc18xf7TW/is7qnUAavWqYrL3XOA3r2+VgpohAXPJrkrxbHnWSO5RUIiO7F38WnNMJamlqJrIO0LrHe4UvjyQ4FM7O05y8BRTiy0b6RsemTpc/35BYRJ+a+X4geDbNw9AUEtm4s4TyHiEgqWfDSN0vwuSK4Z/c5YGiz5lm2iIakHf5IH5fFYj5OIGeLJd4Eqn/D5i+EhQIlpjwnWchrKJbYcvM5F6NSl6NGfGy6PKsAg90agaamp4Mru8QH172wIDAQAB",
+   "manifest_version": 2,
+   "name": "Miro for Google Calendar",
+   "page_action": {
+      "default_icon": "images/miro-logo-action.png"
+   },
+   "permissions": [ "cookies", "*://googlecalendar.miro-apps.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.446",
+   "web_accessible_resources": [ "images/*", "fonts/*" ]
+}

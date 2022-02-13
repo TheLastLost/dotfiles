@@ -1,0 +1,7 @@
+[2021-12-22 14:31:32.894] [main] [info] update#setState idle
+[2021-12-22 14:31:32.929] [main] [info] ExtensionHostStarterWorker created
+[2021-12-22 14:31:35.306] [main] [info] Starting extension host with pid 20361 (fork() took 12 ms).
+[2021-12-22 14:32:02.900] [main] [info] update#setState checking for updates
+[2021-12-22 14:32:03.162] [main] [info] update#setState idle
+[2021-12-22 14:35:19.499] [main] [info] Waiting for extension host with pid 20361 to exit.
+[2021-12-22 14:35:19.509] [main] [info] Extension host with pid 20361 exited with code: 0, signal: null.

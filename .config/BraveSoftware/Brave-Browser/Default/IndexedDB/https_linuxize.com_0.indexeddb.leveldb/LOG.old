@@ -1,0 +1,6 @@
+2021/12/22-21:49:18.871 40c Creating DB /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
+2021/12/22-21:49:18.876 40c Reusing MANIFEST /home/th3l4stl0st/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/22-21:49:59.163 f86 Level-0 table #5: started
+2021/12/22-21:49:59.166 f86 Level-0 table #5: 11863 bytes OK
+2021/12/22-21:49:59.168 f86 Delete type=0 #3
+2021/12/22-21:49:59.168 f86 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+[2021-12-30 21:57:14.716] [main] [info] update#setState idle
+[2021-12-30 21:57:14.741] [main] [info] ExtensionHostStarterWorker created
+[2021-12-30 21:57:15.826] [main] [info] Starting extension host with pid 5250 (fork() took 13 ms).
+[2021-12-30 21:57:44.720] [main] [info] update#setState checking for updates
+[2021-12-30 21:57:44.974] [main] [info] update#setState idle
+[2021-12-30 22:48:39.333] [main] [info] Waiting for extension host with pid 5250 to exit.
+[2021-12-30 22:48:39.346] [main] [info] Extension host with pid 5250 exited with code: 0, signal: null.
